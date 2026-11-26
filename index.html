@@ -15,7 +15,7 @@
     /* aplica o tema salvo antes de pintar a tela (evita "piscar") */
     try { var t = localStorage.getItem("revisa.tema"); if (t) document.documentElement.setAttribute("data-theme", t); } catch (e) {}
   </script>
-  <link rel="stylesheet" href="assets/styles.css" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <div class="bg" aria-hidden="true"><span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span><span class="grain"></span></div>
@@ -41,10 +41,10 @@
   <footer class="foot">Feito para estudar e revisar · conteúdo baseado no material das aulas</footer>
 
   <!-- Conteúdo das matérias: para adicionar uma matéria nova, crie um arquivo em /data e inclua aqui -->
-  <script src="data/sig.js"></script>
-  <script src="data/contabilidade.js"></script>
-  <script src="data/administracao.js"></script>
-  <script src="data/estatistica.js"></script>
-  <script src="assets/app.js"></script>
+  <script src="sig.js"></script>
+  <script src="contabilidade.js"></script>
+  <script src="administracao.js"></script>
+  <script src="estatistica.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
